@@ -21,15 +21,7 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
 }
-/* nav{
-    float: right;
-    margin-right: 20px;
-}
-nav ul li{
-    display: inline-block;
-    line-height: 80px;
-    margin: 0 5px;
-} */
+
 nav ul{
     float: right;
     margin-right: 20px;
