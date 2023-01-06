@@ -41,3 +41,59 @@ nav ul li a{
 a.active,a:hover{
     background: rgb(251, 6, 6);
 }
+/* .back{
+     width: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    position: relative; */
+/* } */
+.card{
+    width: 400px;
+    text-align: center;
+    margin: 10% 5%;
+    
+    border: 1px solid #d4d4d4;
+
+
+}
+.card img{
+    width: 100%;
+}
+.container{
+    padding: 10px;
+}
+.card h3{
+    font-size: 20px;
+    margin: auto;
+
+}
+.card:hover{
+    box-shadow: 4px 8px 10px  rgb(0,0,0.2)
+}
+/* 2nd */
+.car{
+    width: 400px;
+    text-align: center;
+    margin:  90px;
+    border: 1px solid #d4d4d4;
+
+
+}
+.car img{
+    width: 100%;
+}
+.containe{
+    padding: 10px;
+    
+}
+.car h3{
+    font-size: 20px;
+    margin: auto;
+
+}
+.car:hover{
+    box-shadow: 4px 8px 10px  rgb(0,0,0.2)
+}
