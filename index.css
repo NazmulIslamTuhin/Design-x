@@ -51,16 +51,41 @@ a.active,a:hover{
     position: relative; */
 /* } */
 .card{
+    display: flex;
+    flex-direction: row;
     width: 400px;
     text-align: center;
-    margin: 10% 5%;
+    margin: 10% 10%;
+    margin-top: 50px;
     
     border: 1px solid #d4d4d4;
 
 
 }
+.react{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.js{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.js{
+    width: 400px;
+    padding: -5;
+}
+
+
+
+
 .card img{
-    width: 100%;
+    width: 400px;
+    height: 200px;
 }
 .container{
     padding: 10px;
@@ -70,30 +95,27 @@ a.active,a:hover{
     margin: auto;
 
 }
+
 .card:hover{
     box-shadow: 4px 8px 10px  rgb(0,0,0.2)
 }
-/* 2nd */
-.car{
-    width: 400px;
-    text-align: center;
-    margin:  90px;
-    border: 1px solid #d4d4d4;
 
 
+/* .radiant{
+    width: 300px;
+    height: 300px;
+     
+    background: radial-gradient(red, red, yellow, white 150px);
 }
-.car img{
-    width: 100%;
+.sun{
+    padding: auto;
+} */
+
+.card-box{
+    display: flex;
 }
-.containe{
-    padding: 10px;
+.heading{
+    padding: 100px;
     
-}
-.car h3{
-    font-size: 20px;
-    margin: auto;
-
-}
-.car:hover{
-    box-shadow: 4px 8px 10px  rgb(0,0,0.2)
+    color: red;
 }
