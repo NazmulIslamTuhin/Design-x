@@ -123,3 +123,23 @@ a.active,a:hover{
     padding-left: 800px;
     color: rgb(227, 13, 95)  ;
 }
+
+footer {
+    
+    height: 177px;
+    background-color: #0b0d17;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer h1 {
+    color: #ff5959;
+    font-size: 30px;
+  }
+  footer p {
+    font-family: monospace;
+    color: #707070;
+    font-size: 14px;
+    margin-top: 20px;
+  }
