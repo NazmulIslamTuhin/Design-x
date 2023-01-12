@@ -41,6 +41,12 @@ nav ul li a{
 a.active,a:hover{
     background: rgb(8, 8, 8);
 }
+.heading{ 
+    text-decoration: underline;
+    padding: 50px;
+    padding-left: 800px;
+    color: rgb(227, 13, 95)  ;
+}
 .back{
     width: 100%;
     min-height: 100vh;
@@ -117,14 +123,12 @@ a.active,a:hover{
 .card-box{
     display: flex;
 }
-.heading{ 
-    text-decoration: underline;
-    padding: 50px;
-    padding-left: 800px;
-    color: rgb(227, 13, 95)  ;
+.box{
+    display: flex;
 }
 
-footer {
+
+/* footer {
     
     height: 177px;
     background-color: #0b0d17;
@@ -142,4 +146,4 @@ footer {
     color: #707070;
     font-size: 14px;
     margin-top: 20px;
-  }
+  } */
