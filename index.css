@@ -106,7 +106,7 @@ a.active,a:hover{
 }
 
 .card:hover{
-    box-shadow: 4px 8px 10px  rgb(0,0,0.2)
+    box-shadow: 4px 8px 10px  rgb(14, 14, 14)
 }
 
 
@@ -126,24 +126,73 @@ a.active,a:hover{
 .box{
     display: flex;
 }
-
-
- footer {
-    
-    height: 177px;
-    background-color: #0b0d17;
+.footer{
+    padding: 0;
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: rgb(11, 11, 11);
+    color: rgb(35, 254, 6);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  footer h1 {
-    color: #ff5959;
-    font-size: 30px;
-  }
-  footer p {
-    font-family: monospace;
-    color: #707070;
-    font-size: 14px;
+}
+.footer div{
+    text-align: center;
+    
+
+}
+.col-2{
+    flex-grow: 2px;
+    margin-left: 150px;
+    
+}
+.text{
+   margin-left: 100px;
+    color: rgb(35, 254, 6);
+    margin-right: -400px;
+    margin-top: -20px;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #f00909;
+    margin-bottom: 10px;
+
+}
+form input{
+    width:400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 200px;
     margin-top: 20px;
-  } 
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+.contact{
+    margin-left: 400px;
+    margin-top: -30px;
+    text-align: center;
+    color: rgb(35, 254, 6);
+}
+.pera{
+    margin-left: -80px;
+    color: #f00909;
+}
