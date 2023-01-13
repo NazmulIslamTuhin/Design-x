@@ -196,3 +196,14 @@ form button{
     margin-left: -80px;
     color: #f00909;
 }
+.social-icon{
+    margin-top: 50px;
+    margin-left: -120px;
+
+}
+.social-icon i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
