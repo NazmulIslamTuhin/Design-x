@@ -230,3 +230,8 @@ form button {
     cursor: pointer;
     color: white;
 }
+.button{
+    border: none;
+    border-radius: 5px;
+    background: red;
+}
